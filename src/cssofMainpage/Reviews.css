@@ -1,0 +1,162 @@
+
+#Reviews {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #F2F3F3;
+
+}
+
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+#review-heading {
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    /* background-color: aqua; */
+}
+
+.review-tweet-container {
+    height: 100%;
+    /* background-color: blue; */
+    column-count: 3;
+    column-width: 320px;
+
+
+}
+
+.review-tweet {
+    /* background-color: aqua; */
+
+
+    min-height: 100px;
+    width: 100%;
+    margin-bottom: 1.25rem;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    gap: 0.5rem;
+    border-radius: 12px;
+    border: 0.5px solid var(--deactivated-color);
+    background-color: var(--white-color);
+    break-inside: avoid; /* Prevent the tweet from breaking across columns */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+
+
+}
+
+
+
+.username-and-picture-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.img-container {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+.img-container img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.username-container {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    line-height: 1; /* Adjust line height to reduce the gap */
+    cursor: pointer;
+
+
+}
+
+#username-main {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--main-text-color);
+}
+
+#username-main:hover {
+    text-decoration: underline;
+
+} 
+
+
+#username-second {
+    color: var(--light-white-color);
+    font-size: 0.9rem;
+
+}
+
+.text-container {
+    padding: 8px 0;
+    
+}
+
+.text-container p {
+    font-weight: 300;
+    color: var(--text-color);
+}
+
+.date-container p {
+    font-size: 1rem;
+    color: var(--light-white-color);
+
+}
+
+#show-more {
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--background-color);
+    background-color: var(--blue-color);
+    cursor: pointer;
+}
+
+
+
+
+/* TABLE RESPONSIVE  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    section {
+        
+        padding: 5% 2% 5% 2%;   
+
+    
+    }
+
+
+
+} 
+
+
+/* MOBILE RESPONSIVE */
+
+
+@media (max-width: 767px) {
+
+    section {
+        
+        padding: 5% 2% 5% 2%;   
+
+    
+    }
+
+}

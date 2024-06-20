@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* padding: 1% 1%; */
+  /* overflow-x: hidden; */
+
+
+}
+
+section {
+  min-height: 100vh;
+  width: 100%;
+  padding: 5% 12% 5% 12%;   
+  /* background-color: aqua;  */
+
+}
+
+.main {
+  box-sizing: border-box;
+
+}
+
+/* .main{
+  min-height: 100vh;
+  background-color: yellow;
+  width: 100%;
+
+} */
+
+
+.nav-bar {
+  height: 7rem;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* Use a semi-transparent background for the frosted glass effect */
+  backdrop-filter: blur(50px);
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  /* //padding fix!!! */
+  padding: 1% 1%; 
+  gap:3rem ;
+  
+}
+
+.nav-bar img {
+  height: 3.2rem;
+  width: 3.2rem;
+  /* background-color: black; */
+}
+
+.nav-bar a {
+
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--text-color);
+
+
+}
+
+button:hover {
+  text-decoration: underline;
+
+}

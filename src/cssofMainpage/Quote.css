@@ -1,0 +1,110 @@
+:root {
+    --background-color: #FFFFFF;
+    --text-color: #343434;
+    --main-text-color: #222222;
+    --dark-grey-color: #606576;
+    --white-color: #FAFDFD;
+    --light-white-color: #6D7F83;
+    --blue-color: #25A0AF;
+}
+
+
+
+#Quote{
+    min-height: 60vh;
+    max-height: 70vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* background-color: black; */
+    /* margin-top: 7rem; */
+   
+}
+
+.quote-container{
+    max-height: 100%;
+    max-width: 55%; 
+    /* overflow: auto; */
+     /* padding: 0 5rem 0; */
+    /* background-color: aqua; */
+}
+
+.quote-container p {
+    text-align: left;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--main-text-color);
+}
+
+.quote-container p span {
+    color: var(--light-white-color);
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+
+    section {
+        
+        padding: 5% 2% 5% 2%;   
+
+    
+    }
+
+    #Quote{
+        /* display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        background-color: black; */
+        /* margin-top: 20rem; */
+        margin-bottom: 5rem;
+
+    }
+
+    .quote-container{
+        max-height: 90%;
+        max-width: 90%; 
+         /* padding: 0 5rem 0; */
+        /* background-color: aqua; */
+
+    }
+
+    .quote-container p {
+        font-size: 3rem;
+    }
+
+    
+}
+
+
+@media (max-width: 767px) {
+
+    section {
+        
+        padding: 5% 2% 5% 2%;   
+
+    
+    }
+    .quote-container{
+        max-height: 70%;
+        max-width: 90%; 
+         /* padding: 0 5rem 0; */
+        /* background-color: aqua; */
+    }
+
+    .quote-container p {
+        font-size: 2.3rem;
+    }
+
+    #Quote{
+        /* display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        background-color: black; */
+        /* margin-top: 20rem; */
+        margin-bottom: 5rem;
+
+    }
+
+
+
+}
