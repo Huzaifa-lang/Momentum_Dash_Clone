@@ -75,9 +75,9 @@ function hero() {
 
             <div className="hero-imgs">
 
-<img src="public/Hero-image-1.jpg" alt="" />
-<img src="public/Hero-image-2.jpg" alt="" />
-<img src="public/Hero-image-3.jpg" alt="" />
+<img src="/Hero-image-1.jpg" alt="" />
+<img src="/Hero-image-2.jpg" alt="" />
+<img src="/Hero-image-3.jpg" alt="" />
 
 
 
