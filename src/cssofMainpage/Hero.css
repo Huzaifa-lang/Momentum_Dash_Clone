@@ -135,7 +135,7 @@
     border-radius: 5px;
     /* background-color: red; */
     box-shadow: 12px 12px 12px rgba(96, 101, 118, 0.8);
-    background-image: url('public/Hero-image-1.jpg');
+    background-image: url('/Hero-image-1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
