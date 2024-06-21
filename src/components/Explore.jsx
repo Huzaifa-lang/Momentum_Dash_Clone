@@ -18,7 +18,7 @@ function Explore() {
                         <div className="package-main-container">
                             <p>Introducing AI into Momentum Da.. <br /> <span>Integrate AI into your daily workflow</span></p>
                             <div className="package-image">
-                                <img src="public/explore_image_1.jpeg" alt="" id='explore-image-1'/>
+                                <img src="/explore_image_1.jpeg" alt="" id='explore-image-1'/>
 
                             </div>
 
@@ -36,7 +36,7 @@ function Explore() {
 
 
                     <div className="package-image">
-                    <img src="public/explore_image_2 (1).jpg" alt="" id='explore-image-2'/>
+                    <img src="/explore_image_2 (1).jpg" alt="" id='explore-image-2'/>
 
 
                     </div>
@@ -55,7 +55,7 @@ function Explore() {
                     <p>Momentum for Teams<br /> <span>Get on the same page.</span></p>
 
                         <div className="package-image">
-                        <img src="public/explore_image_3.jpg" alt="" id='explore-image-3'/>
+                        <img src="/explore_image_3.jpg" alt="" id='explore-image-3'/>
 
 
                         </div>
