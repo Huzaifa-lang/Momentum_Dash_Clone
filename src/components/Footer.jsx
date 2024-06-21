@@ -84,7 +84,7 @@ function Footer() {
             </div>
 
             <div className="footer-copyrights">
-                <img src="public/logo.svg" alt=""/>
+                <img src="/logo.svg" alt=""/>
                 <p>Privacy & Legal</p>
             </div>
 
