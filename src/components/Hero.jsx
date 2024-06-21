@@ -10,9 +10,9 @@ import '../cssofMainpage/Hero.css'
 function hero() {
 
   const images = [
-    '/public/Hero-image-1.jpg',
-    '/public/Hero-image-2.jpg',
-    '/public/Hero-image-3.jpg'
+    '/Hero-image-1.jpg',
+    '/Hero-image-2.jpg',
+    '/Hero-image-3.jpg'
   ];
 
   const [currentIndexImage, setcurrentIndexImage] = React.useState(0);
